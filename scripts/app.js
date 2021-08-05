@@ -1,3 +1,4 @@
+"use strict"
 const todos = getSavedTodos();
 const filters = { searchText: "", hideCompleted: false };
 const showTodos = document.querySelector("#showTodos");

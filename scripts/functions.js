@@ -1,4 +1,5 @@
-hideCompleted; //Getting saved todos from local storage
+"use strict";
+//Getting saved todos from local storage
 const getSavedTodos = () => {
   const todoJSON = localStorage.getItem("todos");
   if (todoJSON !== null) {
